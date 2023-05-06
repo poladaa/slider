@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e3f2fd;
+  width: 100%;
+  min-height: 100vh;
+  font-size: 1.6rem;
+}
+
+.testimonial {
+  max-width: 90rem;
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  padding: 4rem 0;
+  row-gap: 3rem;
+  border-radius: 10px;
+}
+
+.slide img {
+  cursor: pointer;
+  height: 17rem;
+  width: 17rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.slide img:hover {
+  transition: all 1s;
+  transform: translateY(-10%);
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.slide p {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #333;
+  font-weight: bold;
+  padding: 0 16rem;
+  line-height: 1.4;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.name {
+  font-weight: bold;
+  color: #3f759e;
+  font-size: 2.4rem;
+}
+
+.job {
+  padding: 0.5rem;
+  border-bottom: 2px solid #333;
+}
+
+.hide {
+  display: none;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 3rem;
+}
+
+.buttons ion-icon {
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+}
